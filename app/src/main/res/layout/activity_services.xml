@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    tools:context=".services">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/my_drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".MainActivity"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteY="4dp">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/custom_buttontext"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="12dp"
+                    tools:layout_editor_absoluteY="62dp">
+
+                    <ImageButton
+                        android:id="@+id/image_Fixed_car"
+                        android:layout_width="match_parent"
+                        android:layout_height="204dp"
+                        android:layout_margin="15dp"
+                        android:scaleType="center"
+                        app:srcCompat="@drawable/fix" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button_Fixed_car"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/btn_bg"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="Fixing Cars"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/custom_buttontext"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="12dp"
+                    tools:layout_editor_absoluteY="62dp">
+
+                    <ImageButton
+                        android:id="@+id/image_Car_electrifier"
+                        android:layout_width="match_parent"
+                        android:layout_height="204dp"
+                        android:layout_margin="15dp"
+                        android:scaleType="center"
+                        app:srcCompat="@drawable/elec" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button_Car_electrifier"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/btn_bg"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="Car Electrifier"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/custom_buttontext"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="12dp"
+                    tools:layout_editor_absoluteY="62dp">
+
+                    <ImageButton
+                        android:id="@+id/image_part"
+                        android:layout_width="match_parent"
+                        android:layout_height="204dp"
+                        android:layout_margin="15dp"
+                        android:scaleType="center"
+                        app:srcCompat="@drawable/parts" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button_part"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/btn_bg"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="Spare Parts Of Cars"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/custom_buttontext"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="12dp"
+                    tools:layout_editor_absoluteY="62dp">
+
+                    <ImageButton
+                        android:id="@+id/image_winch"
+                        android:layout_width="match_parent"
+                        android:layout_height="204dp"
+                        android:layout_margin="15dp"
+                        android:scaleType="center"
+                        app:srcCompat="@drawable/w" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button_winch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/btn_bg"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="Car Winch"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/custom_buttontext"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="12dp"
+                    tools:layout_editor_absoluteY="62dp">
+
+                    <ImageButton
+                        android:id="@+id/image_Electricitie"
+                        android:layout_width="match_parent"
+                        android:layout_height="204dp"
+                        android:layout_margin="15dp"
+                        android:scaleType="center"
+                        app:srcCompat="@drawable/elec_car" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button_Electricitie"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/btn_bg"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="Car Electricitie"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start">
+
+            <com.google.android.material.navigation.NavigationView
+                android:id="@+id/navigation_view"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                app:headerLayout="@layout/nav_header"
+                app:itemIconTint="@color/lavender"
+                app:itemTextColor="@color/lavender"
+                app:menu="@menu/main_menu" />
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

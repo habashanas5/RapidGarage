@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    tools:context=".MainActivity">
+
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/my_drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteY="4dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/custom_buttontext"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="12dp"
+                    tools:layout_editor_absoluteY="62dp">
+
+                    <ImageButton
+                        android:id="@+id/image_Check_your_problem"
+                        android:layout_width="match_parent"
+                        android:layout_height="204dp"
+                        android:layout_margin="15dp"
+                        android:scaleType="center"
+                        app:srcCompat="@drawable/check" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button_Check_your_problem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/btn_bg"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="Manual Diagnostic"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/custom_buttontext"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="12dp"
+                    tools:layout_editor_absoluteY="62dp">
+
+                    <ImageButton
+                        android:id="@+id/image_show_all_services"
+                        android:layout_width="match_parent"
+                        android:layout_height="204dp"
+                        android:layout_margin="15dp"
+                        android:scaleType="center"
+                        app:srcCompat="@drawable/qq" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button_show_all_services"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/btn_bg"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="Show All Services"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/custom_buttontext"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="12dp"
+                    tools:layout_editor_absoluteY="62dp">
+
+                    <ImageButton
+                        android:id="@+id/image_show_all_garage"
+                        android:layout_width="match_parent"
+                        android:layout_height="204dp"
+                        android:layout_margin="15dp"
+                        android:scaleType="center"
+                        app:srcCompat="@drawable/ser" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button_show_all_garage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/btn_bg"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="Show All Garages"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/custom_buttontext"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="12dp"
+                    tools:layout_editor_absoluteY="62dp">
+
+                    <ImageButton
+                        android:id="@+id/image_map"
+                        android:layout_width="match_parent"
+                        android:layout_height="204dp"
+                        android:layout_margin="15dp"
+                        android:scaleType="center"
+                        app:srcCompat="@drawable/map" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button_map"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/btn_bg"
+                        android:gravity="center"
+                        android:padding="11dp"
+                        android:text="Map"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/custom_buttontext"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="12dp"
+                    tools:layout_editor_absoluteY="62dp">
+
+                    <ImageButton
+                        android:id="@+id/image_gas"
+                        android:layout_width="match_parent"
+                        android:layout_height="204dp"
+                        android:layout_margin="15dp"
+                        android:scaleType="center"
+                        app:srcCompat="@drawable/gas" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button_gas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/btn_bg"
+                        android:gravity="center"
+                        android:padding="11dp"
+                        android:text="Gas Station"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/custom_buttontext"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="12dp"
+                    tools:layout_editor_absoluteY="62dp">
+
+                    <ImageButton
+                        android:id="@+id/image_wash"
+                        android:layout_width="match_parent"
+                        android:layout_height="198dp"
+                        android:layout_margin="15dp"
+                        android:scaleType="center"
+                        app:srcCompat="@drawable/wash" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button_wash"
+                        android:layout_width="349dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/btn_bg"
+                        android:gravity="center"
+                        android:text="Car Wash"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="vertical"
+                    android:padding="30dp">
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start">
+
+            <com.google.android.material.navigation.NavigationView
+                android:id="@+id/navigation_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                app:headerLayout="@layout/nav_header"
+                app:itemIconTint="@color/lavender"
+                app:itemTextColor="@color/lavender"
+                app:menu="@menu/main_menu" />
+        </androidx.core.widget.NestedScrollView>
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/myBottom"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="4dp"
+        android:accessibilityPaneTitle="true"
+        android:background="#b8cdf5"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu2"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundimage"
+    tools:context=".gasolineSmellAll">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="10dp"
+        android:text="Can you pinpoint where the odor is coming ? "
+        android:textColor="@color/black"
+        android:textSize="23dp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Engine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_buttontext"
+                android:drawableStart="@drawable/myimage"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="Engine Compartment"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Rear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_buttontext"
+                android:drawableStart="@drawable/myimage"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:text="Rear of the vehicle"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

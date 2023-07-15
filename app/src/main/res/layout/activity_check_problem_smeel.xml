@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".checkProblemSmeel">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="10dp"
+        android:text="What odor do you smell ? "
+        android:textColor="@color/black"
+        android:textSize="23dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Gasoline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_buttontext"
+                android:drawableStart="@drawable/myimage"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="Gasoline"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Rotten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_buttontext"
+                android:drawableStart="@drawable/myimage"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="Rotten eggs"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Mildew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_buttontext"
+                android:drawableStart="@drawable/myimage"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="Mildew"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Antifreeze"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_buttontext"
+                android:drawableStart="@drawable/myimage"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="Antifreeze (sweet smell)"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Burning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_buttontext"
+                android:drawableStart="@drawable/myimage"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="Burning oil"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Exhaust"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_buttontext"
+                android:drawableStart="@drawable/myimage"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="Exhaust"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

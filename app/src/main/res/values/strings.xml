@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Rapid Garage</string>
+    <string name="menu23">messages</string>
+    <string name="menu22">Notification</string>
+    <string name="menu24">My profile</string>
+    <string name="menu21">Home</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="google_map">AIzaSyBb9FYw3TA-jzskleHz2_gTvP904uc5D8w</string>
+    <string name="screen1">Why Rapid Garage? </string>
+    <string name="screen2">What does this app give you?</string>
+    <string name="screen1desc">This idea of having a driver garage-assisted application came as a savior for drivers and garages.There is no need to call an acquaintance for help after today, we will solve the problem! </string>
+    <string name="screen2desc">The nearest auto technician to repair the car </string>
+    <string name="screen3desc">The nearest car technician specialized in car electrics</string>
+    <string name="screen4desc">The nearest car technician specialized in car parts</string>
+    <string name="screen5desc">Provides you with a map</string>
+    <string name="screen6desc">Provides you with the nearest car wash</string>
+    <string name="screen7desc">Provides you with the nearest gas station</string>
+
+</resources>
+

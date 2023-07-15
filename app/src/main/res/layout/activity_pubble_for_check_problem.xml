@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    android:orientation="vertical"
+    tools:context=".pubbleForCheckProblem">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="10dp"
+        android:text="What kind of puddle or leak do you see? "
+        android:textColor="@color/black"
+        android:textSize="23dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/oil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_buttontext"
+        android:drawableStart="@drawable/myimage"
+        android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+        android:drawablePadding="10dp"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="Engine Oil (Ican see brown to almost black) "
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="19dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Automatic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_buttontext"
+        android:drawableStart="@drawable/myimage"
+        android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+        android:drawablePadding="10dp"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="Automatic Transmission Fluid (Fluid leaking is a red-brown color)"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="19dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Power"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_buttontext"
+        android:drawableStart="@drawable/myimage"
+        android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+        android:drawablePadding="10dp"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="Power Steering Fluid ( Fluid is red or pink to light brown) "
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="19dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Coolant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_buttontext"
+        android:drawableStart="@drawable/myimage"
+        android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+        android:drawablePadding="10dp"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="Coolant (coolant is watery or is green or orange)"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="19dp" />
+
+</LinearLayout>

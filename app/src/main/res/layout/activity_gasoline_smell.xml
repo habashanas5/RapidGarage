@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    android:orientation="vertical"
+    tools:context=".gasolineSmell">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="10dp"
+        android:text="When does the odor occur ? "
+        android:textColor="@color/black"
+        android:textSize="23dp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/AllTheTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_buttontext"
+                android:drawableStart="@drawable/myimage"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="All time"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/only"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_buttontext"
+                android:drawableStart="@drawable/myimage"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:text="Only when engine is ruuning or idling"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

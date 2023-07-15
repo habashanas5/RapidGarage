@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    android:orientation="vertical"
+    tools:context=".checkProblemVibration">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="10dp"
+        android:text="What do you feel about vibration? "
+        android:textColor="@color/black"
+        android:textSize="23dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Braking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_buttontext"
+        android:drawableStart="@drawable/myimage"
+        android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+        android:drawablePadding="10dp"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="When Braking "
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="19dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/acceleration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_buttontext"
+        android:drawableStart="@drawable/myimage"
+        android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+        android:drawablePadding="10dp"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="When acceleration from a stop"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="19dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Constantly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_buttontext"
+        android:drawableStart="@drawable/myimage"
+        android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+        android:drawablePadding="10dp"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="Constantly when traveling at higher speeds"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="19dp" />
+
+</LinearLayout>

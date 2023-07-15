@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    android:orientation="vertical"
+    tools:context=".warningCheckProblem">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="10dp"
+                android:text="Which warning light is on? "
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/EngineLight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_buttontext"
+                android:drawableStart="@drawable/myimage"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="Check Engine Light "
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Tire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_buttontext"
+                android:drawableStart="@drawable/myimage"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="Tire Pressure Light (TPMS)"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Temperature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_buttontext"
+                android:drawableStart="@drawable/myimage"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="Temperature Warning Light"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Battery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_buttontext"
+                android:drawableStart="@drawable/myimage"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="Battery Charge Warning Light"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Oil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_buttontext"
+                android:drawableStart="@drawable/myimage"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="Oil Pressure Warning Light"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Brake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_buttontext"
+                android:drawableStart="@drawable/myimage"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="Brake Warning Light"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ABS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_buttontext"
+                android:drawableStart="@drawable/myimage"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="ABS Warning Light"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/checkEngineNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/custom_buttontext"
+                android:drawableStart="@drawable/myimage"
+                android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                android:padding="10dp"
+                android:text="Check Engine Light on with code P0382,or P0400-P0408"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

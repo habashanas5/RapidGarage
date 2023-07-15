@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/iconapp"
+        android:label="Rapid Garage"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Study"
+        tools:targetApi="31">
+        <activity
+            android:name=".EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".gasolineSmellAll"
+            android:exported="false" />
+        <activity
+            android:name=".gasolineSmellOnly"
+            android:exported="false" />
+        <activity
+            android:name=".frequent"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".setting"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".slider_screen"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gasolineSmell"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AntifreezeSmeel"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".exhaustSmeel"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gasStation"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".checkProblemSmeel"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".about"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rating"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MapActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vibrationWhenBraking"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".checkProblemVibration"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".checkProblemFeel"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".warningCheckProblem"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".exhaust"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".smokeForCheckProblem"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pubbleForCheckProblem"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".checkProblemSee"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".checkProblem"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".feedBack"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".profile"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".services"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signUp"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Splash"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBb9FYw3TA-jzskleHz2_gTvP904uc5D8w" />
+    </application>
+
+</manifest>

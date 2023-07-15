@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".checkProblemSee">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="10dp"
+        android:text="What do you see? "
+        android:textColor="@color/black"
+        android:textSize="23dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/smook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_buttontext"
+        android:drawableStart="@drawable/myimage"
+        android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="  Smoke"
+        android:textAllCaps="false"
+        android:textSize="19dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_buttontext"
+        android:drawableStart="@drawable/myimage"
+        android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="  Tire looks flat"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="19dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_buttontext"
+        android:drawableStart="@drawable/myimage"
+        android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="  Warning light is on "
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="19dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/leak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_buttontext"
+        android:drawableStart="@drawable/myimage"
+        android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+        android:gravity="start"
+        android:padding="10dp"
+        android:text="  Puddle or leak"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="19dp" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Home"
+        android:checkable="false"
+        android:checked="false"
+        android:icon="@drawable/home"
+        android:title="@string/menu21" />
+
+    <item
+        android:id="@+id/Notification"
+        android:checkable="false"
+        android:checked="false"
+        android:icon="@drawable/notification"
+        android:title="@string/menu22" />
+
+    <item
+        android:id="@+id/myProfile"
+        android:icon="@drawable/profile"
+        android:title="@string/menu24" />
+
+
+</menu>
